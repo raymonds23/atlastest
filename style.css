@@ -1,0 +1,134 @@
+.navbar{
+    transition: height .3s ease-out, background .3s ease-out, box-shadow .3s ease-out;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+	z-index: 100;
+    color: white;
+}
+.navbar .btn {
+    margin-top: 20px;
+    margin-right: 20px;
+    background-color: #FFE4B5;
+    font-size: 20px;
+    border-color: transparent;
+    transition: height .3s ease-out, background .3s ease-out, box-shadow .3s ease-out;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+	z-index: 100;
+    border-radius: 0px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #FFE4B5;
+}
+.navbar-light .navbar-nav .nav-link.active {
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link.active:hover {
+    color: #FFE4B5;
+}
+.navbar .btn:hover{
+    margin-top: 20px;
+    margin-right: 20px;
+    background-color: #87CEFA;
+    border-color: transparent;
+    transition: height .3s ease-out, background .3s ease-out, box-shadow .3s ease-out;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+	z-index: 100;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    * {
+        box-sizing: border-box;
+    }        
+.bg-image {
+        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('atlas.jpg');
+        height: 100%; 
+        margin-top: -100px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+.bg-text {      
+        color: white;
+        font-weight: bold;
+        position: absolute;
+        font-family: Garamond;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+      }
+.bg-text h2{
+    font-size: 40px;
+}
+.bg-text button{
+    margin-top: 20px;
+    border: 1px solid #f1f1f1;
+    font-family: Calibri;
+    border-radius: 0px;
+    font-size: 30px;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.bg-text button:hover{
+    margin-top: 20px;
+    background-color: white;
+    border: 1px solid #f1f1f1;
+    font-family: Calibri;
+    border-radius: 0px;
+    font-size: 30px;
+    color: black;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.event h1{
+    text-align: center;
+    margin-top: 50px;
+    font-family: Garamond;
+    color: 	#191970;
+    font-size: 50px;
+}
+.whyus{
+    background-color: 	#E6E6FA;
+    height: 50%;
+}
+.whyus h1{
+    margin-top: 80px;
+    text-align: center;
+    margin-top: 50px;
+    font-family: Garamond;
+    color: 	#191970;
+    font-size: 50px;
+}
+.heading-line {
+    margin: 0 auto;
+    display: block;
+    height: 1px;
+    width: 80px;
+    background: #333;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.navbar .navbar-brand{
+    margin-left: 20px;
+}
+
+
